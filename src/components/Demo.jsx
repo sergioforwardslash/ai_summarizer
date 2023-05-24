@@ -109,7 +109,7 @@ const Demo = () => {
             Well, that wasn't supposed to happen...
             <br />
             <span className="font-satoshi font-normal text-gray-700">
-              {err?.data?.error}
+              {error?.data?.error}
             </span>
           </p>
         ) : (
